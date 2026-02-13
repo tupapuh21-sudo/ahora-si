@@ -1,0 +1,15 @@
+.botones {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#btnNo {
+    position: absolute; /* Crucial para que "escape" */
+    transition: all 0.2s ease;
+}
+
+#btnSi {
+    transition: transform 0.3s ease; /* Para que crezca suavemente */
+}
